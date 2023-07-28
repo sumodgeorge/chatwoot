@@ -34,7 +34,7 @@ gem 'commonmarker'
 # Validate Data against JSON Schema
 gem 'json_schemer'
 # Rack middleware for blocking & throttling abusive requests
-gem 'rack-attack'
+gem 'rack-attack', '>= 6.7.0'
 
 ##-- for active storage --##
 gem 'aws-sdk-s3', require: false
