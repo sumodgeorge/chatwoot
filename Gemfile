@@ -95,12 +95,12 @@ gem 'ddtrace'
 gem 'scout_apm'
 gem 'sentry-rails'
 gem 'sentry-ruby'
-gem 'sentry-sidekiq'
+gem 'sentry-sidekiq', '>= 4.6.5'
 
 ##-- background job processing --##
-gem 'sidekiq'
+gem 'sidekiq', '>= 7.1.3'
 # We want cron jobs
-gem 'sidekiq-cron'
+gem 'sidekiq-cron', '>= 1.3.0'
 
 ##-- Push notification service --##
 gem 'fcm'
