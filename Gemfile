@@ -141,7 +141,7 @@ group :development, :test do
   gem 'active_record_query_trace'
   gem 'bundle-audit', require: false
   gem 'byebug', platform: :mri
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.3.0'
   gem 'faker'
   gem 'listen'
   gem 'mock_redis'
