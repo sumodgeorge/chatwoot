@@ -4,7 +4,7 @@ ruby '3.0.2'
 
 ##-- base gems for rails --##
 gem 'rack-cors', require: 'rack/cors'
-gem 'rails'
+gem 'rails', '>= 6.1.4.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
@@ -14,8 +14,8 @@ gem 'attr_extras'
 gem 'browser'
 gem 'hashie'
 gem 'jbuilder'
-gem 'kaminari'
-gem 'responders'
+gem 'kaminari', '>= 1.2.2'
+gem 'responders', '>= 3.1.0'
 gem 'rest-client'
 gem 'telephone_number'
 gem 'time_diff'
@@ -38,7 +38,7 @@ gem 'rack-attack'
 
 ##-- for active storage --##
 gem 'aws-sdk-s3', require: false
-gem 'azure-storage-blob', require: false
+gem 'azure-storage-blob', '>= 2.0.3', require: false
 gem 'google-cloud-storage', require: false
 gem 'image_processing'
 
@@ -51,23 +51,23 @@ gem 'redis-namespace'
 gem 'activerecord-import'
 
 ##--- gems for server & infra configuration ---##
-gem 'dotenv-rails'
+gem 'dotenv-rails', '>= 2.8.0'
 gem 'foreman'
 gem 'puma'
 gem 'rack-timeout'
-gem 'webpacker', '~> 5.x'
+gem 'webpacker', '~> 5.4', '>= 5.4.1'
 # metrics on heroku
 gem 'barnes'
 
 ##--- gems for authentication & authorization ---##
-gem 'devise'
+gem 'devise', '>= 4.8.1'
 gem 'devise-secure_password', '~> 2.0'
-gem 'devise_token_auth'
+gem 'devise_token_auth', '>= 1.2.1'
 # authorization
 gem 'jwt'
 gem 'pundit'
 # super admin
-gem 'administrate'
+gem 'administrate', '>= 0.17.0'
 
 ##--- gems for pubsub service ---##
 # https://karolgalanciak.com/blog/2019/11/30/from-activerecord-callbacks-to-publish-slash-subscribe-pattern-and-event-driven-design/
@@ -77,7 +77,7 @@ gem 'wisper', '2.0.0'
 # TODO: bump up gem to 2.0
 gem 'facebook-messenger'
 gem 'telegram-bot-ruby'
-gem 'twilio-ruby', '~> 5.32.0'
+gem 'twilio-ruby', '~> 5.33.0'
 # twitty will handle subscription of twitter account events
 # gem 'twitty', git: 'https://github.com/chatwoot/twitty'
 gem 'twitty'
@@ -93,7 +93,7 @@ gem 'google-cloud-dialogflow'
 gem 'brakeman'
 gem 'ddtrace'
 gem 'scout_apm'
-gem 'sentry-rails'
+gem 'sentry-rails', '>= 4.6.5'
 gem 'sentry-ruby'
 gem 'sentry-sidekiq'
 
@@ -115,13 +115,13 @@ gem 'maxminddb'
 # to create db triggers
 gem 'hairtrigger'
 
-gem 'procore-sift'
+gem 'procore-sift', '>= 1.0.0'
 
 group :development do
   gem 'annotate'
   gem 'bullet'
   gem 'letter_opener'
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.0'
 
   # used in swagger build
   gem 'json_refs'
@@ -141,12 +141,12 @@ group :development, :test do
   gem 'active_record_query_trace'
   gem 'bundle-audit', require: false
   gem 'byebug', platform: :mri
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.3.0'
   gem 'faker'
   gem 'listen'
   gem 'mock_redis'
   gem 'pry-rails'
-  gem 'rspec-rails', '~> 5.0.0'
+  gem 'rspec-rails', '~> 5.0.2'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
