@@ -61,7 +61,7 @@ gem 'barnes'
 
 ##--- gems for authentication & authorization ---##
 gem 'devise'
-gem 'devise-secure_password', '~> 2.0'
+gem 'devise-secure_password', '~> 2.1', '>= 2.1.0'
 gem 'devise_token_auth'
 # authorization
 gem 'jwt'
