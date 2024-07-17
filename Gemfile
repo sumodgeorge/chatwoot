@@ -39,7 +39,7 @@ gem 'rack-attack'
 ##-- for active storage --##
 gem 'aws-sdk-s3', require: false
 gem 'azure-storage-blob', require: false
-gem 'google-cloud-storage', require: false
+gem 'google-cloud-storage', '>= 1.35.0', require: false
 gem 'image_processing'
 
 ##-- gems for database --#
@@ -147,14 +147,14 @@ group :development, :test do
   gem 'mock_redis'
   gem 'pry-rails'
   gem 'rspec-rails', '~> 5.0.0'
-  gem 'rubocop', require: false
-  gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
+  gem 'rubocop', '>= 1.19.0', require: false
+  gem 'rubocop-performance', '>= 1.11.5', require: false
+  gem 'rubocop-rails', '>= 2.12.0', require: false
+  gem 'rubocop-rspec', '>= 2.5.0', require: false
   gem 'seed_dump'
   gem 'shoulda-matchers'
   gem 'simplecov', '0.17.1', require: false
   gem 'spring'
   gem 'spring-watcher-listen'
-  gem 'webmock'
+  gem 'webmock', '>= 3.14.0'
 end
