@@ -86,7 +86,7 @@ gem 'koala'
 # slack client
 gem 'slack-ruby-client'
 # for dialogflow integrations
-gem 'google-cloud-dialogflow'
+gem 'google-cloud-dialogflow', '>= 1.3.0'
 
 ##--- gems for debugging and error reporting ---##
 # static analysis
