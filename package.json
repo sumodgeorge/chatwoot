@@ -31,7 +31,7 @@
     "core-js": "3.11.0",
     "country-code-emoji": "^1.0.0",
     "date-fns": "2.21.1",
-    "dompurify": "2.2.7",
+    "dompurify": "2.5.4",
     "dotenv": "^8.0.0",
     "foundation-sites": "~6.5.3",
     "highlight.js": "~10.4.1",
