@@ -39,7 +39,7 @@ gem 'rack-attack'
 ##-- for active storage --##
 gem 'aws-sdk-s3', require: false
 gem 'azure-storage-blob', require: false
-gem 'google-cloud-storage', require: false
+gem 'google-cloud-storage', '>= 1.48.0', require: false
 gem 'image_processing'
 
 ##-- gems for database --#
