@@ -5791,10 +5791,10 @@ domhandler@^4.0.0, domhandler@^4.2.0:
   dependencies:
     domelementtype "^2.2.0"
 
-dompurify@2.2.7:
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.7.tgz#a5f055a2a471638680e779bd08fc334962d11fd8"
-  integrity sha512-jdtDffdGNY+C76jvodNTu9jt5yYj59vuTUyx+wXdzcSwAGTYZDAQkQ7Iwx9zcGrA4ixC1syU4H3RZROqRxokxg==
+dompurify@2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.4.2.tgz#c3409b49357804c9b00e1fbebea81f26514c5bc3"
+  integrity sha512-ckbbxcGpfTJ7SNHC2yT2pHSCYxo2oQgSfdoDHQANzMzQyGzVmalF9W/B+X97Cdik5xFwWtwJP232gIP2+1kNEA==
 
 domutils@^1.5.1, domutils@^1.7.0:
   version "1.7.0"
