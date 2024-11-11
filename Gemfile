@@ -9,7 +9,7 @@ gem 'rails'
 gem 'bootsnap', require: false
 
 ##-- rails application helper gems --##
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '>= 12.0.0'
 gem 'attr_extras'
 gem 'browser'
 gem 'hashie'
@@ -100,7 +100,7 @@ gem 'sentry-sidekiq'
 ##-- background job processing --##
 gem 'sidekiq'
 # We want cron jobs
-gem 'sidekiq-cron'
+gem 'sidekiq-cron', '>= 2.0.0'
 
 ##-- Push notification service --##
 gem 'fcm'
