@@ -94,7 +94,7 @@ gem 'twilio-ruby', '~> 5.66'
 # gem 'twitty', git: 'https://github.com/chatwoot/twitty'
 gem 'twitty', '~> 0.1.5'
 # facebook client
-gem 'koala'
+gem 'koala', '>= 3.5.0'
 # slack client
 gem 'slack-ruby-client', '~> 2.5.2'
 # for dialogflow integrations
@@ -212,7 +212,7 @@ group :test do
   # fast cleaning of database
   gem 'database_cleaner'
   # mock http calls
-  gem 'webmock'
+  gem 'webmock', '>= 3.24.0'
   # test profiling
   gem 'test-prof'
 end
