@@ -159,7 +159,7 @@ gem 'faker'
 gem 'lograge', '~> 0.14.0', require: false
 
 # worked with microsoft refresh token
-gem 'omniauth-oauth2'
+gem 'omniauth-oauth2', '>= 1.9.0'
 
 gem 'audited', '~> 5.4', '>= 5.4.1'
 
