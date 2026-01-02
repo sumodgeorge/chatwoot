@@ -87,7 +87,7 @@ gem 'administrate-field-belongs_to_search', '>= 0.9.0'
 gem 'wisper', '2.0.0'
 
 ##--- gems for channels ---##
-gem 'facebook-messenger'
+gem 'facebook-messenger', '>= 2.1.2'
 gem 'line-bot-api'
 gem 'twilio-ruby', '~> 5.66'
 # twitty will handle subscription of twitter account events
@@ -178,7 +178,7 @@ gem 'reverse_markdown'
 gem 'iso-639'
 gem 'ruby-openai'
 
-gem 'shopify_api'
+gem 'shopify_api', '>= 14.9.0'
 
 ### Gems required only in specific deployment environments ###
 ##############################################################
